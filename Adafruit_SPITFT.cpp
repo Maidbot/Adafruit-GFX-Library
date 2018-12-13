@@ -143,9 +143,9 @@ Adafruit_SPITFT::Adafruit_SPITFT(uint16_t w, uint16_t h,
 /**************************************************************************/
 Adafruit_SPITFT::Adafruit_SPITFT(uint16_t w, uint16_t h,
 				 int8_t cs, int8_t dc, int8_t rst) 
-  : Adafruit_SPITFT(w, h, &SPI, cs, dc, rst) 
+  : Adafruit_SPITFT(w, h, &display, cs, dc, rst)
 {
-  // We just call the hardware SPI instantiator with the default SPI device (&SPI)
+  // We just call the hardware SPI instantiator with the default SPI device (&display)
 }
 
 /**************************************************************************/
