@@ -9,7 +9,6 @@
 #else
  #include "WProgram.h"
 #endif
-#include <SPI.h>
 #include "Adafruit_GFX.h"
 
 #define USE_FAST_PINIO ///< If set, use PORT access instead of digitalWrite()
